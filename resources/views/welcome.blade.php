@@ -1,79 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <title>ACPM 08 - Lumes</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">
-
-    <link rel="stylesheet" href="{{asset('fonts/ionicons/css/ionicons.min.css')}}">
-    <link rel="stylesheet" href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}">
-
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
-  </head>
-  <body>
-    
-    <header role="banner">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand " href="index.html">ACPM</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav pl-md-5 ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Accueil</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Liner</a>
-                  <a class="dropdown-item" href="services.html">Traitement automatique de l'eau</a>
-                  <a class="dropdown-item" href="services.html">Robot de piscine</a>
-                  <a class="dropdown-item" href="services.html">Pompe de filtration</a>
-                  <a class="dropdown-item" href="services.html">Couverture de piscine</a>
-                  <a class="dropdown-item" href="services.html">Filtres</a>
-                  <a class="dropdown-item" href="services.html">Chauffage</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projets</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-
-            <div class="navbar-nav ml-auto">
-              <form method="post" class="search-form">
-                <span class="icon ion ion-search"></span>
-                <input type="text" class="form-control" placeholder="Chercher...">
-              </form>
-            </div>
-            
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- END header -->
-
+@extends('layouts.master')
+  
+  @section('content')
     <div class="top-shadow"></div>
 
     <section class="home-slider owl-carousel">
@@ -246,8 +173,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Nos projets</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class=" heading mb-4">Nos produits</h2>
+            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainqi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
           </div>
         </div>
       </div>
@@ -305,7 +232,7 @@
       <div class="container"> 
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Testimonial</h2>
+            <h2 class=" heading mb-4">Commentaires</h2>
           </div>
         </div>
         <div class="nonloop-block-11 owl-carousel">
@@ -388,118 +315,63 @@
 
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Blog Posts</h2>
-            <p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class=" heading mb-4">Nos projets = vos projets</h2>
+            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainqi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-6">
-
             <div class="media mb-4 d-md-flex d-block element-animate">
               <a href="#" class="mr-5"><img src="images/industrial_blog_1.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
+                <h3 class="mt-2 text-black"><a href="#">Vente et installation d’une station de relevage 2 pompes pour eaux usées.</a></h3>
                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                 <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
               </div>
             </div>
-
-
-
           </div>
+
           <div class="col-md-6">
             <div class="media mb-4 d-md-flex d-block element-animate">
               <a href="#" class="mr-5"><img src="images/industrial_blog_2.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
+                <h3 class="mt-2 text-black"><a href="#">Révision de pompes avec dépose et repose sur site</a></h3>
+                <p>Révision de 3 pompes Etabloc de 11 Kw avec remplacement du kit garniture mécanique, des roulements, contrôle de l’isolement des moteurs et mise en peinture.
+                Comprenant la dépose et la repose sur site.</p>
                 <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
               </div>
             </div>
+        </div>  
+      </div>
 
+        <div class="row">
+          <div class="col-md-6">
             <div class="media mb-4 d-md-flex d-block element-animate">
               <a href="#" class="mr-5"><img src="images/industrial_blog_3.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
               <div class="media-body">
                 <span class="post-meta">Feb 26th, 2018</span>
-                <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>
+                <h3 class="mt-2 text-black"><a href="#">Traitement d’eau par chloration</a></h3>
+                <p>Fourniture et installation d’un ensemble pompe à javel sur réservoir pour chlorer de l’eau en sortie d’un groupe de surpression (surpresseur) asservit à un compteur.</p>
                 <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
               </div>
             </div>
+          </div>
 
+          <div class="col-md-6">
+            <div class="media mb-4 d-md-flex d-block element-animate">
+              <a href="#" class="mr-5"><img src="images/industrial_blog_4.jpg" alt="Free website template by Free-Template.co" class="img-fluid"></a>
+              <div class="media-body">
+                <span class="post-meta">Feb 26th, 2018</span>
+                <h3 class="mt-2 text-black"><a href="#">Débitmètre</a></h3>
+                <p>Fourniture et installation d’un débitmètre sur un canal de comptage Venturi.</p>
+                <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  
-    <!-- FOOTER -->
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>ACPM, qui sommes nous ?</h3>
-            <p class="mb-5">La sarl ACPM (Associés Choquert Pluet Maintenance) intervient sur le secteur des Ardennes et les départements limitrophes.
-            Nous proposons nos services sur la vente, la réparation et l’installation concernant...</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
-
-          </div>
-          <div class="col-md-5 mb-5 pl-md-5">
-            <h3>Nous contacter</h3>
-            <ul class="list-unstyled footer-link">
-              <li class="d-block">
-                <span class="d-block">Adresse:</span>
-                <span >31 Grande rue, 08000, Lumes</span></li>
-              <li class="d-block"><span class="d-block">Telephone:</span><span >09 81 40 24 99</span></li>
-              <li class="d-block"><span class="d-block">Emails:</span>
-                <a><span>info@acpm08.fr</span></a> </br>
-                <a><span>acpm.jv@sfr.fr</span></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Liens utiles</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-          
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-             <p class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- END footer -->
-
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
-
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="js/main.js"></script>
-    
-  </body>
-</html>
+@endsection         
