@@ -174,7 +174,7 @@
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
             <h2 class=" heading mb-4">Nos produits</h2>
-            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainqi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
+            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainsi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
           </div>
         </div>
       </div>
@@ -182,37 +182,37 @@
         <div class="row no-gutters">
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Ducting Design in Colorado</h3>
+              <h3>Levage</h3>
               <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_1.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+              <img src="images/produit_levage.jpg" alt="Free template by Free-Template.co" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Tanks Project In California</h3>
+              <h3>Moteurs</h3>
               <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_2.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+              <img src="images/produit_moteur.jpg" alt="Free template by Free-Template.co" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Structural Design in New York</h3>
+              <h3>Pompes</h3>
               <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_3.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+              <img src="images/produit_pompe.jpg" alt="Free template by Free-Template.co" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Stacks Design</h3>
+              <h3>Traitement de l'eau</h3>
               <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_4.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+              <img src="images/produit_pompe_chlore.jpg" alt="Free template by Free-Template.co" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
             <a href="project-single.html" class="link-thumbnail">
-              <h3>Intercate Custom</h3>
+              <h3>Télésurveillance</h3>
               <span class="ion-plus icon"></span>
-              <img src="images/industrial_img_5.jpg" alt="Free template by Free-Template.co" class="img-fluid">
+              <img src="images/produit_telesurveillance.jpg" alt="Free template by Free-Template.co" class="img-fluid">
             </a>
           </div>
           <div class="col-md-4 element-animate">
@@ -315,8 +315,8 @@
 
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class=" heading mb-4">Nos projets = vos projets</h2>
-            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainqi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
+            <h2 class=" heading mb-4">Vos projets = nos projets</h2>
+            <p class="mb-5 lead">Depuis maintenant plus de 5 ans nous réalisons vos projets sur le secteur Ardennais ainsi que sur les départements limitrophes.Nous proposons nos services sur la vente, la réparation et l’installation concernant: ... </p>
           </div>
         </div>
 

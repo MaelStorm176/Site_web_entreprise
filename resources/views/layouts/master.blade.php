@@ -24,7 +24,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand " href="index.html">ACPM</a>
+          <a class="navbar-brand " href="#">ACPM</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav pl-md-5 ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Accueil</a>
+                <a class="nav-link active" href="/">Accueil</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</a>
@@ -52,10 +52,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projets</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact">Contact</a>
