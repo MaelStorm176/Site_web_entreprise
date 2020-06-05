@@ -4,7 +4,7 @@
     <title>ACPM 08 - Lumes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 
@@ -17,14 +17,18 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
+    <style>
+        a.product_header {
+            cursor: pointer;
+        }
+    </style>
   </head>
   <body>
-    
+
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand " href="#">ACPM</a>
+          <a class="navbar-brand " href="/">ACPM</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,29 +36,26 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav pl-md-5 ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="/">Accueil</a>
+                <a class="nav-link active product_header" href="/">Accueil</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</a>
+                <a class="nav-link dropdown-toggle product_header" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos produits</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Liner</a>
-                  <a class="dropdown-item" href="services.html">Traitement automatique de l'eau</a>
-                  <a class="dropdown-item" href="services.html">Robot de piscine</a>
-                  <a class="dropdown-item" href="services.html">Pompe de filtration</a>
-                  <a class="dropdown-item" href="services.html">Couverture de piscine</a>
-                  <a class="dropdown-item" href="services.html">Filtres</a>
-                  <a class="dropdown-item" href="services.html">Chauffage</a>
-                  <a class="dropdown-item" href="product">Armoires électriques</a>
+                  <a class="dropdown-item product_header" href="services.html">Levage</a>
+                  <a class="dropdown-item product_header" href="services.html">Moteurs</a>
+                  <a class="dropdown-item product_header" href="services.html">Pompes</a>
+                  <a class="dropdown-item product_header" href="services.html">Traitement de l'eau</a>
+                  <a class="dropdown-item product_header" href="product">Télésurveillance</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">A propos</a>
+                <a class="nav-link product_header" href="about.html">A propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projets</a>
+                <a class="nav-link product_header" onclick="scroll_to('projets')">Projets</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact">Contact</a>
+                <a class="nav-link product_header" href="contact">Contact</a>
               </li>
             </ul>
 
@@ -64,7 +65,7 @@
                 <input type="text" class="form-control" placeholder="Chercher...">
               </form>
             </div>
-            
+
           </div>
         </div>
       </nav>
@@ -84,7 +85,7 @@
             Nous proposons nos services sur la vente, la réparation et l’installation concernant...</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
               <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://www.facebook.com/acpm08" class="p-2"><span class="fa fa-facebook"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
               <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
             </ul>
@@ -122,7 +123,7 @@
             </ul>
           </div>
           <div class="col-md-3">
-          
+
           </div>
         </div>
         <div class="row">
@@ -152,7 +153,7 @@
     <script src="js/main.js"></script>
 
     @yield('scripts')
-    
+
   </body>
 </html>
 

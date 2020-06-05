@@ -1,29 +1,26 @@
-@extends('layouts.master')    
+@extends('layouts.master')
   @section('content')
     <section class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-5 order-2">
-            <form action="#" method="post">
+            <form action="send_mail" method="get">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name">Nom / Prénom</label>
-                  <input type="text" id="name" class="form-control ">
+                    <small class="small">(optionnel)</small>
+                  <input type="text" name="nom" id="nom" class="form-control ">
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="phone">Téléphone</label>
-                  <input type="text" id="phone" class="form-control ">
+                  <input type="text" name="phone" id="phone" class="form-control " maxlength="10">
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  
-                </div>
-              </div>
+
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="email">Votre adresse email</label>
-                  <input type="email" id="email" class="form-control ">
+                  <input type="email" name="email" id="email" class="form-control ">
                 </div>
               </div>
               <div class="row">
@@ -47,8 +44,8 @@
                   <span>31 Grande rue, 08000, Lumes</span>
                 </p>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.561585571819!2d4.780602815671616!3d49.737876279383414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea13d7146a6b33%3A0xafd009b93d033e23!2sACPM!5e0!3m2!1sfr!2sfr!4v1590938968065!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <br />
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.561585571819!2d4.780602815671616!3d49.737876279383414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea13d7146a6b33%3A0xafd009b93d033e23!2sACPM!5e0!3m2!1sfr!2sfr!4v1590938968065!5m2!1sfr!2sfr" width="300" height="300" frameborder="1" style="border-style: solid; border-color: #fd5f00" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <br />
+                  <br/>
                 <p class="d-flex">
                   <span class="ion-ios-telephone icon mr-5"></span>
                   <span>09 81 40 24 99</span>

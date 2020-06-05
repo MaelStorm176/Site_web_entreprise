@@ -27,5 +27,5 @@ Route::get('contact', function () {
     return view('contact');
 });
 
-
+Route::get('send_mail','Contact@send');
 
